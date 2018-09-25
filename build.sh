@@ -6,7 +6,7 @@
 #######################################################################
 
 # Variables to edit 
-exportBasePath="/"  #Change this to the path you want the exports to be saved to 
+exportBasePath=""  #Change this to the path you want the exports to be saved to 
 TBFilesysName="/USADATA" #The name of the Harmony file system on the iporting server 
 importBasePath="" # Change this to the path you want the imports tto be saved to 
 ####################################
@@ -127,7 +127,6 @@ chmod +x $importScriptPath
 while read -r line
 	do
 		importPath="$importBasePath/$uinput/$line/IEContents.dat"
-		echo "Controlcenter -batch -import -import_env $uinput -import_job $line -path $importPath" >>  $importScriptPath
 		echo "Controlcenter -batch -import -target_env $uinput -target_job  $line -filesys $TBFilesysName -path $importPath" >>  $importScriptPath
 	done < "$envFile"
 #######################################
