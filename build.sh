@@ -6,9 +6,9 @@
 #######################################################################
 
 # Variables to edit 
-exportBasePath="/n/home/kfrouk"  #Change this to the path you want the exports to be saved to 
+exportBasePath=""  #Change this to the path you want the exports to be saved to 
 TBFilesysName="/USADATA" #The name of the Harmony file system on the iporting server 
-importBasePath="/n/home/kfrouk" # Change this to the path you want the imports tto be saved to 
+importBasePath="" # Change this to the path you want the imports tto be saved to 
 ####################################
 
 		if [[ ! "$PWD" =~ TBHExport ]]; then
