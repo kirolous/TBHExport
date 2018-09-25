@@ -6,9 +6,9 @@
 #######################################################################
 
 # Variables to edit 
-exportBasePath=""  # Change this to the path you want the exports to be saved to 
+exportBasePath="/n/home/kfrouk"  #Change this to the path you want the exports to be saved to 
 TBFilesysName="/USADATA" #The name of the Harmony file system on the iporting server 
-importBasePath=""# Change this to the path you want the imports tto be saved to 
+importBasePath="/n/home/kfrouk" # Change this to the path you want the imports tto be saved to 
 ####################################
 
 		if [[ ! "$PWD" =~ TBHExport ]]; then
@@ -132,4 +132,4 @@ while read -r line
 	done < "$envFile"
 #######################################
 
-
+echo "You should now have ExportScript and ImportScripts folders , Run the ExportsScripts on the EXPORTING server and the ImportScripts on the IMPORTING server  "
