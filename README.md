@@ -9,14 +9,14 @@ This is a simple script helps Sytems Administrators to migrate entire ToonBoom H
 - cd TBHExport
 chmod +x build.sh
 # Run 
-  # Step 1 (Creating the Export / Import scripts)
+# Step 1 (Creating the Export / Import scripts)
 - vi build.sh 
 Edit exportBasePath,TBFilesysName,importBasePath variables and exit (^ESC > :wq > ^ENTER)
 - ./build.sh
 Enter the Environment name when promted 
-  # Step 2 , Run these steps on the EXPORTING server 
+# Step 2 , Run these steps on the EXPORTING server 
 - cd ExportScripts
 Then run the scripts in that directory 
-  # Step 3 , Run these steps on the IMPORTING server
+# Step 3 , Run these steps on the IMPORTING server
 Copy the scripts generated in the folder ImportScripts and run 
 
