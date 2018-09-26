@@ -21,4 +21,6 @@ Then run the scripts in that directory
 Copy the scripts generated in the folder ImportScripts and run 
 
 
-# Only tested on Centos 7 and Harmony server 14 and 15
+# Tested on
+- Centos 6 + 7
+- Harmony 14 + 15
