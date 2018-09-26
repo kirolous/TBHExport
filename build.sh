@@ -123,10 +123,11 @@ importScriptPath="./ImportScripts/$uinput"".sh"
 echo "#!/bin/bash" > $importScriptPath
 echo "" >> $importScriptPath
 chmod +x $importScriptPath
-
+echo "Controlcenter -create -env $uinput" >> $importScriptPath
 while read -r line
 	do
-		importPath="$importBasePath/$uinput/$line"
+		importPath="$importBasePath/$uinput/$line/IEContents.dat"
+		echo "Controlcenter -create -env $uinput -job $line -TD usabatch -ATD usabatch"
 		echo "Controlcenter -batch -import -target_env $uinput -target_job  $line -filesys $TBFilesysName -path $importPath" >>  $importScriptPath
 	done < "$envFile"
 #######################################
