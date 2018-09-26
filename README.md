@@ -1,3 +1,6 @@
+# License
+Free to use , as long as your not ToonBoom support ;)
+
 # Intro
 This is a simple script helps Sytems Administrators to migrate entire ToonBoom Harmony Enviroments; since that option is unavailable / not implemented in Control Center 
 # Dependencies
