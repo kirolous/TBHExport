@@ -20,3 +20,5 @@ Then run the scripts in that directory
 # Step 3 , Run these steps on the IMPORTING server
 Copy the scripts generated in the folder ImportScripts and run 
 
+
+# Only tested on Centos 7 and Harmony server 14 and 15
