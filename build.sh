@@ -126,7 +126,7 @@ chmod +x $importScriptPath
 
 while read -r line
 	do
-		importPath="$importBasePath/$uinput/$line/IEContents.dat"
+		importPath="$importBasePath/$uinput/$line"
 		echo "Controlcenter -batch -import -target_env $uinput -target_job  $line -filesys $TBFilesysName -path $importPath" >>  $importScriptPath
 	done < "$envFile"
 #######################################
