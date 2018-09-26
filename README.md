@@ -1,5 +1,5 @@
 # Intro
-This is a simple script helps Sytems Administrators to migrate entire ToonBoom Harmony Enviroments; since that option is unavilable / not implemented in Control Center 
+This is a simple script helps Sytems Administrators to migrate entire ToonBoom Harmony Enviroments; since that option is unavailable / not implemented in Control Center 
 # Dependencies
 - ToonBoom harmony database server running on a linux system 
 - Control Center and dbu paths have to be added to your $PATH variable . This is ussually already done when you install the database server 
