@@ -108,7 +108,7 @@ chmod +x $exportScriptPath
 while read -r line
 	do
 		exportPath="$exportBasePath/$uinput/$line/"
-		echo "Controlcenter -batch -export -export_env $uinput -export_job $line -path $exportPath" >>  $exportScriptPath
+		echo "Controlcenter -batch -export_all -export_env $uinput -export_job $line -path $exportPath" >>  $exportScriptPath
 	done < "$envFile"
 #######################################
 
